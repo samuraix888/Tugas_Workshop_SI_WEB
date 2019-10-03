@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!--documen yang diproses adalah html-->
+<html><!--pemrograman kode html dimulai-->
+
+<head><!--kepala pembuka, berisi berbagai definisi halaman yang tidak muncul di body halaman, seperti css,java scrip dll-->
+    <title>Belajar Membuat Form </title><!--title pada tab browser-->
+</head><!--kepala penutup-->
+
+<body><!--body open/tubuh, isinya ya semua elemen elemen yg ditampilin di web kaya gambar, paragraf dll-->
+
+	<!--tag form ya kita membuat form yang gunya buat ngumpulin data pengunjung-->
+    <!--method get itu menurut saya mengambil atau nginputin data-->
+    <form action=" formulir.html" method="get">
+
+        Nama:
+        <input type="text" name="nama" value="Nama Kamu" /><!--ini tampilan buat masukin nama(inputan text biasa)-->
+        <br /> Password:<!--tag /br itu pindah baris-->
+        <input type="password" name="password" /><!--ini tampilan buat masukin pasword(inputan text namun tidak terliha)-->
+        <br /> Jenis Kelamin :
+        <input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki<!--ini pembuatan pilihan dengan centangnya kaya radio<tipe radio hanya bisa pilih 1>-->
+        <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+        <br /> Hobi:
+        <input type="checkbox" name="hobi_baca" /> Membaca Buku<!--ini pilihan dnegan simbol kotak yang tengahnya dicentang<user biasa meilih ataupun tidak memilih salah satupun>-->
+        <input type="checkbox" name="hobi_nulis" checked /> Menulis
+        <input type="checkbox" name="hobi_mancing" /> Memancing
+        <br /> Asal Kota:
+        <select name="asal_kota"><!--ini pilihan kota-->
+            <option value="Kota Jakarta"> Jakarta</option><!--option gunanya biar bisa ada pilihan switch, jadi ntar bisa pilih kota dengan texboxnya kebawah, valuenya juga akan terisi ketika dipilih-->
+            <option>Bandung</option>
+            <option value="Kota Semarang" selected>Semarang</option>
+        </select>
+        <br /> Komentar Anda:
+        <textarea name="komentar" rows="5" cols="20"><!--text area sama sih kyk input text biasa cuma spacenya lebih lebar dan panjang barisnya., -->
+            Silahkan katakan isi hati anda
+        </textarea>
+        <br />
+
+        <input type="submit" value="Mulai Proses!"><!--submit artinya nginputin, akan muncul tampilan proses untuk form-->
+
+    </form><!--penutup form-->
+</body><!--penutup body-->
+
+</html><!--penutup html-->

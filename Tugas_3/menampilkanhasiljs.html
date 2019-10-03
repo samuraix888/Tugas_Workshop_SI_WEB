@@ -1,0 +1,25 @@
+<!DOCTYPE html> <!--documen yang diproses adalah html-->
+<html><!--pemrograman kode html dimulai-->
+<head><!--kepala pembuka, berisi berbagai definisi halaman yang tidak muncul di body halaman, seperti css,java scrip dll-->
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" /><!--meta adlaah permudahan google dalam identifikasi kenten dalamwebsite, yang kontennya sesuai dengan standarisasi utf8-->
+<title>Belajar JavaScript</title><!--title-->
+
+<script>/*peletakan scrip disini agar java scrip diexsekusi setelah html dijalankan*/
+window.onload = function()/*pengeksekusian dokumen, gambar, dll dilakukan on load setelah html berjalan*/
+{
+   var hasil;
+   hasil = 1+3+5+7+9;
+   document.getElementById("tempat_hasil").innerHTML=hasil;
+}
+</script><!--penutup scipt-->
+
+</head><!--penutup kepala-->
+ 
+<body><!--body open/tubuh, isinya ya semua elemen elemen yg ditampilin di web kaya gambar, paragraf dll-->
+<h1>Belajar JavaScript</h1><!--h1 ukuran font untuk judul-->
+<p> Saya sedang belajar JavaScript di jti.polije.com </p><!--p paragraf, juga sebgai penampung-->
+<div id="tempat_hasil"><!--div adalah wadah, disini div diartikan sebagai outing jsnya-->
+</div>
+</body><!--penutup body-->
+</html> <!--penutup html-->

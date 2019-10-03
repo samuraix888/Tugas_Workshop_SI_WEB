@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!--documen yang diproses adalah html-->
+<html><!--pemrograman kode html dimulai-->
+<head><!--kepala pembuka, berisi berbagai definisi halaman yang tidak muncul di body halaman, seperti css,java scrip dll-->
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" /><!--meta adlaah permudahan google dalam identifikasi kenten dalamwebsite, yang kontennya sesuai dengan standarisasi utf8-->
+<title>Belajar JavaScript</title><!--judul web-->
+ 
+<script>/*script memulai java*/
+   a = 5;/*variabel berisi angkat integer*/
+   b = 7;
+
+   c = b / 0;
+   console.log(c);      // Hasil: Infinity (division by zero)
+
+   d = 12 / 0;
+   console.log(d);      // Hasil: Infinity (division by zero)
+
+   e = 1 + Math.pow(10,309);
+   console.log(e);      // Hasil: Infinity (overflow)
+
+   f = -Math.pow(10,309) - 1;
+   console.log(f);      // Hasil: -Infinity (negative
+infinity)
+
+   g = b + e;
+   console.log(g);      // Hasil: Infinity (karena e dan b
+infinity)
+
+   h = 0/0;
+   console.log(h);      // Hasil: NaN
+
+   i = Math.sqrt(-25);
+   console.log(i);      // Hasil: NaN (akar kuadrat negatif)
+
+   j = c / d
+   console.log(j);   // Hasil: NaN (c dan d sama-sama bernilai
+infinity)
+ 
+</script><!--penutup script-->
+</head><!--penutup kepala-->
+<body><!--body open/tubuh, isinya ya semua elemen elemen yg ditampilin di web kaya gambar, paragraf dll-->
+<h1>Belajar JavaScript</h1><!--h1 ukuran font untuk judul-->
+<p> Saya sedang belajar Tipe Data Angka JavaScript di </p><!--p paragraf, juga sebgai penampung-->
+</body><!--body penutu-->
+</html> <!--penutup html-->

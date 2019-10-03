@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!--documen yang diproses adalah html-->
+<html><!--pemrograman kode html dimulai-->
+<head><!--kepala pembuka, berisi berbagai definisi halaman yang tidak muncul di body halaman, seperti css,java scrip dll-->
+<title>Belajar JavaScript di Jti.polije</title><!--title pada tab browser-->
+
+<script type="text/javascript">//script adalah tag untuk memasukkan java script
+function tambah_semangat()//memberikan tidakan atau fungsi untuk value (tambah semangat) 
+{
+   var a=document.getElementById("div_semangat");//var adalah variabel a, yang mana memilih tag id <yang dituju>
+   a.innerHTML+="<p>Sedang Belajar JavaScript, Semangat...!!!</p>";//innerhtml untuk menambahakan kontenyang berada di "", <p> adalah pembuka paragraf
+}
+</script><!--penutup script js-->
+
+</head><!--penutup header-->
+
+<body><!--body open/tubuh, isinya ya semua elemen elemen yg ditampilin di web kaya gambar, paragraf dll-->
+<h1>Belajar JavaScript</h1><!--h1 adalah ukuran font title-->
+<p> Saya sedang belajar JavaScript di jti.polije.com </p>
+Klik tombol ini untuk menambahkan kalimat baru:
+
+<button id="tambah"
+onclick="tambah_semangat()">Semangaat..!!</button><!-- membuat button dengan menambah jika oneclik dijalakna  untuk memanggil value tambah semangat -->
+
+<div id="div_semangat"></div><!--lalu hasil akan dicetak di sini-->
+</body>
+</html> 

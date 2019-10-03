@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!--documen yang diproses adalah html-->
+<html><!--pemrograman kode html dimulai-->
+<head><!--kepala pembuka, berisi berbagai definisi halaman yang tidak muncul di body halaman, seperti css,java scrip dll-->
+   <title>Contoh Inheritance dalam CSS</title><!--title pada tab browser-->
+   <style type="text/css">
+      div.satu /* div adalah sebuat tempat penampungan, border sama aja dengan frame/batas pinggiran dengan warna solid black, color blue adlah warna font nya*/ {
+            border: 1px solid black;
+            color: blue;
+      }
+ 
+      div.dua {
+            border: 1px solid black;
+      }
+      p.dua /*border inherit adlah penurunan border dari ukuran induknya*/{
+            border: inherit;
+      }
+    </style><!--style bisa saya artikan pengaktifan penggaya-->
+</head><!--penutup kepala-->
+ 
+<body><!--body open/tubuh, isinya ya semua elemen elemen yg ditampilin di web kaya gambar, paragraf dll-->
+   <div class="satu"><!--class = adalah selector seleksi elemenberdasar nama class, h2 adalah ukuran dont pembuatanjudul-->
+     <p class="satu"><!--p adalah pembuatan paragraf-->
+      Kalimat ini tanpa <em class="satu">nilai property
+inherit</em> CSS<!--em adlaah penekanan kata dengan dicetak miring-->
+     </p>
+   </div>
+   <br />
+   <div class="dua">
+     <p class="dua">
+       Kalimat ini menggunakan <em class="dua">nilai property
+inherit</em> CSS
+     </p>
+   </div>
+</body><!--penutup body-->
+</html> <!--penutup html-->
