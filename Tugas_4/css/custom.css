@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+}
+.slides{
+    padding: 5mm;
+    border: 1px black;  
+}
+.btn-primary{
+    float: right;
+
+}
+.copyright{
+    text-align: center;
+    padding: 0px;
+    margin: 0cm;
+    background-color: #c6c6c6;
+}
+.scrolling-wrapper {
+    padding-top: 5px;
+    backface-visibility: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+  
+.card{
+      display: inline-block;
+    }
+  }
+
+nav{
+    background-color: #1E90FF;
+}
+.b{
+
+    color:black;
+}
+.slides{
+        -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
