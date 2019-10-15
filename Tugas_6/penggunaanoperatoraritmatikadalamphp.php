@@ -15,7 +15,10 @@
 						$hasil5=3+8/5-3;//deklarasi variabel dengan value int+int dibagi int-int
 							$hasil6=10 % 4;// deklarsi variabel dengan value 10 % 4
 
-//pencetakan atau penampilan  hasil 
+/*
+pencetakan atau penampilan  hasil 
+ var_dump berguna untuk mengecek tipe data output
+*/
 				echo "\$hasil1:"; var_dump($hasil1); // hasil = int(-3)
 						echo "<br \>";//break atau pindah baris
 				echo "\$hasil2:"; var_dump($hasil2); // hasil = int(8)
